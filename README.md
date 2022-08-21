@@ -1,6 +1,6 @@
 # Software Design Pattern ##
 
-_Observer pattern falls under  behavioral pattern category   _
+_Observer pattern falls under  behavioral pattern category_
 
 1. `Abstract Observer Class`
 2. `Concrete Observer Class`

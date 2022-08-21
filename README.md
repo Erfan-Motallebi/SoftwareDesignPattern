@@ -1,5 +1,4 @@
-# Software Design Pattern ##
+# Software Design Pattern #
 
-### Contact me for more design pattern ####
+_Factory pattern comes under Creational pattern catagory_
 
-### Email: FS.C0d3rZ@gmail.comm ###

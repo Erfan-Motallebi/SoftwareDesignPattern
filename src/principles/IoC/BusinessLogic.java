@@ -11,8 +11,8 @@ public class BusinessLogic implements IBusinessLogic {
 
 //	}
 
-//	public BusinessLogic(IDataAccess dataAccess) {
 //		DI Pattern - Approach I -> Constructor Injection
+//	public BusinessLogic(IDataAccess dataAccess) {
 //		this.dataAccess = dataAccess;
 //	}
 

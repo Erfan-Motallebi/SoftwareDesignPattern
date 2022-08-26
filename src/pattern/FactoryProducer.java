@@ -1,15 +1,12 @@
 package pattern;
 
-public class FactoryProducer implements IFactoryProducer {
-	
-	
-	 public AbstractFactory getFactory(String shape) {
-		if (shape.toLowerCase() == "rounded") {
+public class FactoryProducer {
+
+	public static AbstractFactory getFactory(Boolean rounded) {
+		if (rounded) {
 			return new RoundedFactory();
-		}
-		if (shape.toLowerCase() == "normal") {
+		} else {
 			return new ShapeFactory();
 		}
-		return null;
 	}
 }

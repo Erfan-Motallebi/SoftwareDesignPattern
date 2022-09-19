@@ -3,8 +3,8 @@ package principle.Dock;
 public abstract class Dock {
 
 	// HAS-A Relationship [ Aggregation ]
-	FlyyableBehavior flyBehavior;
-	QuackableBehavior quackBehavior;
+	protected FlyyableBehavior flyBehavior;
+	protected QuackableBehavior quackBehavior;
 
 	abstract void display();
 
